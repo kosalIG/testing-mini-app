@@ -36,7 +36,7 @@ const Home: React.FC = () => {
       }
     });
   };
-  const [listProduct, setListProduct] = useState(() => generateRandomData());
+  const [listProduct] = useState(() => generateRandomData());
 
   useEffect(() => {
     if (window.Telegram && window.Telegram.WebApp) {
