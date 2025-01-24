@@ -5,9 +5,9 @@ import logo from '../../../assets/images/logo.png'
 const PartnerRequest:React.FC = () => {
   return (
     <>
-      <div className='flex-1 p-4 flex flex-col justify-center'>
-        <div className='text-2xl font-bold text-center py-2'>
-            <img className='w-2/3 mx-auto' src={logo} />
+      <div className='flex-1 p-4 flex flex-col h-fit justify-center'>
+        <div className='text-2xl font-bold text-center'>
+            <img className='h-28 mx-auto' src={logo} />
         </div>
         <Form layout='vertical'>
             <Form.Item label="Pickup Date">
