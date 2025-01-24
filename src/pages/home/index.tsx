@@ -1,6 +1,4 @@
-import { Button } from "antd";
-import React, { useEffect, useState } from "react";
-import Item from "./components/Item";
+import React from "react";
 import PartnerRequest from "./components/PartnerRequest";
 
 declare global {
